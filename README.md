@@ -26,36 +26,45 @@ Bot is equipped with some real-time commands which enable Viima's users to work 
 
 
 Following makes the bot to introduce himself and to instruct the user how to use it.
-`
-@viima-bot help
 
-`  
+```
+@viima-bot help 
+
+```
+
+
+
+
 ![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/slack-one.jpg)
 
 Following command shows all available ideas (as real-time) and their corresponding codes
+```
 
-` @viima-bot allideas
+ @viima-bot allideas
+ 
+ ```
 
-`
+
 ![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/slack-two.jpg)
 
 
 Following command shows a specific idea in detail. This includes author, description.
 
-`
+```
 @viima-bot idea corresponding_code 
 `
-
+```
 
 ![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/slack-three.jpg)
 
 
 
 Following command shows comments (as real-time) made on an idea
-`
+
+```
 @viima-bot comments corresponding_code 
 
-`
+```
 ![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/slack-four.jpg)
 
 
