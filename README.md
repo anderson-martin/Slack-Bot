@@ -1,17 +1,16 @@
 # Slack-Bot
 
-<a href="http://www.viima.com">Viima Solutions Oy</a> is a privately held company based building a SaaS tool for open innovation and transparent feedback.
+<a href="http://www.viima.com">Viima </a> is an interactive SaaS tool for open innovation and transparent feedback.
 
-<a href="http://www.viima.com">Viima Solutions Oy</a>
-Durng my free time, I developed a Slack Bot for main product of the company Viima Solutions Oy.  This is Minimum Viable Product and has many opportunities for further development.
+Durng my free time, I developed a Slack Bot for it, based on Node.js and Bokit framework.
 
-I have developed this based on Node.js and Bokit framework.
-
-The bot works in conjuction with REST API of the Viima's demo solution which is accessible from the following link:
-https://demo.viima.com/test-company/tutorial-board/
+This bot works in conjuction with REST API of the Viima's demo solution which is accessible <a href="https://demo.viima.com/test-company/tutorial-board/"> from here. </a> However, they might change this link in future, so I will add some screenshot of how thier solution looks like. 
 
 It shows the aviable ideas, comments in a real time. Followings are screenshots of my bot:
 
+
+
+This is Minimum Viable Product and has many opportunities for further development.
 
 
 
