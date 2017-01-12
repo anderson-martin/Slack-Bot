@@ -69,11 +69,14 @@ Following command shows comments (as real-time) made on an idea
 
 
 ### 2.1 Architecture
+
 You can look into the slack_bot.js in the root folder to see how I coonfigured it according to Viima's REST API. I have commented it for better clarification.
 
-This bot is woorking as a stand-alone module so it's reuable and can easily be maintained. And being built based on Botkit & Node, it's fast and robost.
+This bot is working as a stand-alone module so it's reuable and can easily be maintained. And being built based on Botkit & Node, it's fast and robust.
 
-To run the bot, you should go to the rooot oflder and run following command:
+You can run this bot on the server, so it will be available 24/7 on Slack. You just have to invite the bot intoo a chanel then voila!  Alternatively, you can run it locally on your system. As far as it's runnig over there, it will be available on Slack too.
+
+To run the bot, you should go to the root folder and run following command:
 
 ```
  token=************ node slack_bot.js
@@ -83,7 +86,8 @@ To run the bot, you should go to the rooot oflder and run following command:
 To get a token, you have to create your bot user on Slack. More info <a href="https://api.slack.com/bot-users"> here. </a> 
 
 
+
 ### 3. Final words
 
-This is just a Minimum Viable Product (MVP) that I developed over a weekend. So, there are many opportunities for improvement. Also, Viima admins have deliberately protected their API against HTTP POST request, that's why I developed this MVP one-way. But having the required crednetials, this bot can easily post into Viima too.
+This is just a Minimum Viable Product (MVP) that I developed over a weekend and as a hobby. So, there are many opportunities for improvement. Also, Viima admins have deliberately protected their (demo) API against HTTP POST request, that's why I developed this MVP one-way. But having the required crednetials, this bot can easily post into Viima too.
 
