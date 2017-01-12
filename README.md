@@ -10,13 +10,13 @@ This bot works in conjuction with REST API of the Viima's demo solution which is
 
 In Viima, ideas are presented in a nice and interactive way.
 
-![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/viima-one.jpg)
+![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/screenshots/viima-one.jpg)
 
 
 
 In Viima, users can react to any idea by commenting, Liking it, etc.
 
-![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/viima-two.jpg)
+![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/screenshots/viima-two.jpg)
 
 
 
@@ -33,19 +33,17 @@ Following makes the bot to introduce himself and to instruct the user how to use
 ```
 
 
-
-
-![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/slack-one.jpg)
+![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/screenshots/slack-one.jpg)
 
 Following command shows all available ideas (as real-time) and their corresponding codes
-```
 
- @viima-bot allideas
+```
+@viima-bot allideas
  
  ```
 
 
-![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/slack-two.jpg)
+![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/screenshots/slack-two.jpg)
 
 
 Following command shows a specific idea in detail. This includes author, description.
@@ -55,7 +53,7 @@ Following command shows a specific idea in detail. This includes author, descrip
 `
 ```
 
-![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/slack-three.jpg)
+![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/screenshots/slack-three.jpg)
 
 
 
@@ -65,7 +63,8 @@ Following command shows comments (as real-time) made on an idea
 @viima-bot comments corresponding_code 
 
 ```
-![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/slack-four.jpg)
+
+![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/screenshots/slack-four.jpg)
 
 
 
@@ -78,6 +77,7 @@ To run the bot, you should go to the rooot oflder and run following command:
 
 ```
  token=************ node slack_bot.js
+ 
 ```
 
 To get a token, you have to create your bot user on Slack. More info <a href="https://api.slack.com/bot-users"> here. </a> 
