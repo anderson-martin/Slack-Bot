@@ -80,10 +80,10 @@ To run the bot, you should go to the rooot oflder and run following command:
  token=************ node slack_bot.js
 ```
 
-To get a token, you have to create you bot user on Slack. More info <a href="https://api.slack.com/bot-users"> here. </a> 
+To get a token, you have to create your bot user on Slack. More info <a href="https://api.slack.com/bot-users"> here. </a> 
 
 
+### 3. Final words
 
-
-
+This is just a Minimum Viable Product (MVP) that I developed over a weekend. So, there are many opportunities for improvement. Also, Viima admins have deliberately protected their API against POST request, that's why I developed this MVP one-way. But having the required crednetials, this bot can easily post into Viima too.
 
