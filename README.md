@@ -21,11 +21,11 @@ In Viima, users can react to any idea by commenting, Liking it, etc.
 
 
 ### 2. Functionality
-Bot is equipped with some real-time commands which enable Viima's users to work with it, directly from Slack. SO, they don't have to login separately to their Viima's account. I'm gonna equip each command with screenshot for clarificaiton. In theSlack channel, I have defined the BOt's user name is viima-bot, but it can be anything.
+The bot is equipped with real-time commands which enable Viima's users to work with it, directly from Slack. So, they don't have to login separately to their Viima's account. I'm gonna equip each command with screenshot for clarification. In my Slack channel, I have defined the bot's username as @viima-bot, but ofcourse it can be anything else.
 
 
 
-Following makes the bot to introduce himself and to instruct the user how to use it.
+Following command makes the bot to introduce himself and to instruct the user how to use it.
 
 ```
 @viima-bot help 
@@ -35,7 +35,7 @@ Following makes the bot to introduce himself and to instruct the user how to use
 
 ![alt tag](https://github.com/anderson-martin/Slack-Bot/blob/master/screenshots/slack-one.jpg)
 
-Following command shows all available ideas (as real-time) and their corresponding codes
+Following command shows all available ideas (real-time) and their corresponding codes
 
 ```
 @viima-bot allideas
@@ -57,7 +57,7 @@ Following command shows a specific idea in detail. This includes author, descrip
 
 
 
-Following command shows comments (as real-time) made on an idea
+Following command shows comments (real-time) made on an idea
 
 ```
 @viima-bot comments corresponding_code 
@@ -70,11 +70,11 @@ Following command shows comments (as real-time) made on an idea
 
 ### 2.1 Architecture
 
-You can look into the slack_bot.js in the root folder to see how I coonfigured it according to Viima's REST API. I have commented it for better clarification.
+You can look into the slack_bot.js in the root folder to see how I configured the bot to work along with Viima's REST API. I have commented it for clarification.
 
-This bot is working as a stand-alone module so it's reuable and can easily be maintained. And being built based on Botkit & Node, it's fast and robust.
+The bot is working as a stand-alone module so it's reusable and can easily be maintained. It can be removed without affecting any other part of the software. And being built based on Botkit & Node.js, it's fast and robust.
 
-You can run this bot on the server, so it will be available 24/7 on Slack. You just have to invite the bot intoo a chanel then voila!  Alternatively, you can run it locally on your system. As far as it's runnig over there, it will be available on Slack too.
+You can run this bot on the server so it will be available 24/7 on Slack. You just have to invite the bot into your Slack chanel (or send direct message to the bot) then _voila_!  Alternatively, you can run it locally on your personal system. As far as it's runnig, it will connect to Slack and will be functional.
 
 To run the bot, you should go to the root folder and run following command:
 
@@ -83,11 +83,11 @@ To run the bot, you should go to the root folder and run following command:
  
 ```
 
-To get a token, you have to create your bot user on Slack. More info <a href="https://api.slack.com/bot-users"> here. </a> 
+To get a token, you have to create your bot user on Slack. More info on <a href="https://api.slack.com/bot-users"> Slack API. </a> 
 
 
 
 ### 3. Final words
 
-This is just a Minimum Viable Product (MVP) that I developed over a weekend and as a hobby. So, there are many opportunities for improvement. Also, Viima admins have deliberately protected their (demo) API against HTTP POST request, that's why I developed this MVP one-way. But having the required crednetials, this bot can easily post into Viima too.
+This is a Minimum Viable Product (MVP) that I developed over a weekend and just as a hobby. So, there are many opportunities for improvement. Also, Viima's admins have deliberately protected their demo API against HTTP POST request, that's why I developed this MVP one-way. But having the required crednetials, this bot can easily post into Viima too.
 
