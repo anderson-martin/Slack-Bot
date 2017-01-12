@@ -1,6 +1,9 @@
 # Slack-Bot
 
-As hobby, I developed a Slack Bot for main product of the company Viima Solutions Oy.  This is Minimum Viable Product and has many opportunities for further development.
+<a href="http://www.viima.com">Viima Solutions Oy</a> is a privately held company based building a SaaS tool for open innovation and transparent feedback.
+
+<a href="http://www.viima.com">Viima Solutions Oy</a>
+Durng my free time, I developed a Slack Bot for main product of the company Viima Solutions Oy.  This is Minimum Viable Product and has many opportunities for further development.
 
 I have developed this based on Node.js and Bokit framework.
 
